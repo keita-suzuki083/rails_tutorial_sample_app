@@ -7,6 +7,7 @@ class UsersControllerTest < ActionDispatch::IntegrationTest
     @other_user = users(:archer)
     @admin     = users(:michael)
     @non_admin = users(:archer)
+    # @non_activated_user = users(:suke_non_activated)
   end
 
   test "should get new" do
